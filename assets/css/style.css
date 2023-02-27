@@ -1,0 +1,48 @@
+
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 20vh;
+}
+.words{
+    position: absolute;
+    top: 95%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+} 
+.btn{
+    position: absolute;
+    top: 105%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    color: aliceblue; 
+    background-color: blue;
+}
+.back{
+    margin-bottom: 10vh;
+}
+.back1{
+    margin-top: 4vh;
+}
+.last{
+    background-color:rgb(247, 247, 247);
+}
+
+
+@media only screen and (max-width: 600px) {
+   .centered{
+    top: 30%;
+    left: 35%;
+} 
+.words{
+    display: none;
+}
+.btn{
+    display: none;
+}
+}
